@@ -1,12 +1,8 @@
 import streamlit as st
 from PIL import Image
-import io
-import pandas as pd
-import cv2
 import tensorflow as tf
 import numpy as np
 import sys
-from time import sleep
 
 sys.stdout.reconfigure(encoding="utf-8")
 st.set_page_config(page_title="Face recognition app")
